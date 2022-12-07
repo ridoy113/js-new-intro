@@ -65,8 +65,15 @@ const unique = number.filter(function (value, index, array) {
 
 
 // console.log(x==y);
-let x = 6;
-let y = "6";
+// let x = 6;
+// let y = "6";
 
 
-console.log(x===y);
+// console.log(x===y);
+
+let age = 18; 
+
+
+if(age >=18){
+    console.log("you are adult!");
+}
