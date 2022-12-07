@@ -65,3 +65,8 @@ const unique = number.filter(function (value, index, array) {
 
 
 // console.log(x==y);
+let x = 6;
+let y = "6";
+
+
+console.log(x===y);
