@@ -71,9 +71,16 @@ const unique = number.filter(function (value, index, array) {
 
 // console.log(x===y);
 
-let age = 18; 
+// let age = 18; 
 
 
-if(age >=18){
+// if(age >=18){
+//     console.log("you are adult!");
+// }
+
+let age = 17; 
+
+
+if(age > 16 && age < 20 && age == 17){
     console.log("you are adult!");
 }
