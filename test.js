@@ -98,14 +98,21 @@ const unique = number.filter(function (value, index, array) {
 
 // console.log(voteable);
 
-let age = "40";
+// let age = "40";
 
-if (age < 18) {
-  console.log("You are young!");
-} else if (age == 18) {
-  console.log("Welcome to adult world");
-} else if (age > 18 && age < 30) {
-  console.log("You are mature");
-} else {
-  console.log("you are old");
+// if (age < 18) {
+//   console.log("You are young!");
+// } else if (age == 18) {
+//   console.log("Welcome to adult world");
+// } else if (age > 18 && age < 30) {
+//   console.log("You are mature");
+// } else {
+//   console.log("you are old");
+// }
+
+const cars = ["A", "B", "C", "D", "E"];
+
+for (let i = 0; i < cars.length; i++) {
+  console.log(i);
 }
+console.log("i am done");
