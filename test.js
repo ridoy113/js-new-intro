@@ -77,6 +77,23 @@ const unique = number.filter(function (value, index, array) {
 //     console.log("you are not adult");
 // }
 
-let age = 17;
+// let age = 32;
 
-console.log(age >= 18 ? "you are adult!" : "you are not adult");
+// // console.log(age >= 18 ? "you are adult!" : "you are not adult");
+// console.log(
+//   age >= 18 ? (age < 30 ? "you are adult!" : "you are old!") : "you are young!"
+// );
+
+// console.log(2 < 8);
+
+let age = "10";
+
+age = Number(age);
+
+if (isNaN(age)) {
+  voteable = "Input is not a number";
+} else {
+  voteable = age < 18 ? "Too young" : "Old enough";
+}
+
+console.log(voteable);
