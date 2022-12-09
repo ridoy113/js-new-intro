@@ -86,14 +86,26 @@ const unique = number.filter(function (value, index, array) {
 
 // console.log(2 < 8);
 
-let age = "10";
+// let age = "10";
 
-age = Number(age);
+// age = Number(age);
 
-if (isNaN(age)) {
-  voteable = "Input is not a number";
+// if (isNaN(age)) {
+//   voteable = "Input is not a number";
+// } else {
+//   voteable = age < 18 ? "Too young" : "Old enough";
+// }
+
+// console.log(voteable);
+
+let age = "40";
+
+if (age < 18) {
+  console.log("You are young!");
+} else if (age == 18) {
+  console.log("Welcome to adult world");
+} else if (age > 18 && age < 30) {
+  console.log("You are mature");
 } else {
-  voteable = age < 18 ? "Too young" : "Old enough";
+  console.log("you are old");
 }
-
-console.log(voteable);
