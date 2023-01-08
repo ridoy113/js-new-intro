@@ -140,12 +140,47 @@ console.log("hello"); */
 // console.log(mySet);
 
 // Create a Set
+
+/*
 const letters = new Set(["a", "b", "c"]);
 
-// // List all Elements
-// let text = "";
-// letters.forEach(function (value) {
-//   text += value;
-// });
+// List all Elements
+let text = "";
+letters.forEach(function (value) {
+  text += value;
+});
 
-console.log(letters.values());
+console.log(letters.values);
+*/
+
+/**/
+
+// Create a Map
+const fruits = new Map();
+
+// Set Map Values
+fruits.set("apples", 500);
+fruits.set("bananas", 300);
+fruits.set("oranges", 200);
+
+
+
+
+
+
+
+// let text = "";
+// for (const x of fruits.entries()) {
+//   text += x;
+// }
+// console.log(text);
+// List all entries
+// let text = "";
+// fruits.forEach(function (value, key) {
+//   text += key + " = " + value;
+// });
+// console.log(text);
+// fruits.delete("apples");
+// console.log(fruits.has("apples"));
+// console.log(fruits.set("apples", 200));
+// console.log(fruits.size);
