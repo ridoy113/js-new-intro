@@ -110,17 +110,17 @@ const unique = number.filter(function (value, index, array) {
 //   console.log("you are old");
 // }
 
-const cars = ["A", "B", "C", "D", "E"];
+// const cars = ["A", "B", "C", "D", "E"];
 
-let i = 0;
-for (; ; i++) {
-  if (i > 10) {
-    break;
-  } else {
-    console.log(i);
-  }
-}
-console.log("i am done");
+// let i = 0;
+// for (; ; i++) {
+//   if (i > 10) {
+//     break;
+//   } else {
+//     console.log(i);
+//   }
+// }
+// console.log("i am done");
 
 // const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
 
