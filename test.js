@@ -190,6 +190,7 @@ let y = +x;
 console.log(y);
 */
 
+// console.log(String(22 + 85));
 // console.log(typeof String(22 + 85));
 /*
 let a = 10e6;
