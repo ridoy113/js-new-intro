@@ -153,8 +153,7 @@ letters.forEach(function (value) {
 console.log(letters.values);
 */
 
-/**/
-
+/*
 // Create a Map
 const fruits = new Map();
 
@@ -162,12 +161,7 @@ const fruits = new Map();
 fruits.set("apples", 500);
 fruits.set("bananas", 300);
 fruits.set("oranges", 200);
-
-
-
-
-
-
+*/
 
 // let text = "";
 // for (const x of fruits.entries()) {
@@ -184,3 +178,20 @@ fruits.set("oranges", 200);
 // console.log(fruits.has("apples"));
 // console.log(fruits.set("apples", 200));
 // console.log(fruits.size);
+
+// console.log(Number("     "));
+// console.log(parseFloat("3"));
+// console.log(parseFloat("3.2"));
+// console.log(parseInt("3"));
+
+/*
+let x = "5";
+let y = +x;
+console.log(y);
+*/
+
+// console.log(typeof String(22 + 85));
+/*
+let a = 10e6;
+console.log(typeof a.toExponential());
+*/
