@@ -214,4 +214,26 @@ let result = text.replace(/microsoft/i, "W3Schools");
 console.log(result);
 */
 
+/*
+try {
+  adddlert("Welcome guest!");
+} catch (err) {
+  document.getElementById("demo").innerHTML = err.message;
+}
+console.log(err);
 
+
+
+
+let x = 20;
+try {
+  if (x.trim() == "") throw "empty";
+  if (isNaN(x)) throw "not a number";
+  x = Number(x);
+  if (x < 5) throw "too low";
+  if (x > 10) throw "too high";
+} catch (err) {
+  message.innerHTML = "Input is " + err;
+}
+console.log("");
+*/
