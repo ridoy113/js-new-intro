@@ -237,3 +237,68 @@ try {
 }
 console.log("");
 */
+
+/*
+let carName = "volvo";
+
+function A() {
+  // let a = "greenLine";
+  let a = 5;
+  console.log(a);
+}
+A();
+
+function A(a, b) {
+  console.log(a + b);
+}
+A(10, 20);
+*/
+
+/*
+let str = "heLLo";
+if (0 > 5) {
+  str = "petter";
+}
+console.log(str);
+
+
+function myFunction() {
+  let carName = "Volvo";
+  document.getElementById("demo1").innerHTML = typeof carName + " " + carName;
+}
+
+document.getElementById("demo2").innerHTML = typeof carName;
+
+
+
+
+
+let carName1 = "Volvo";
+
+function myFunction() {
+  let careName2 = "greenLine";
+  console.log(carName1 + "" + careName2);
+}
+
+
+let carName = "Volvo";
+
+function myFunction() {
+  console.log("I can display " + carName);
+}
+myFunction();
+
+
+
+// code here can use carName as a global variable
+document.getElementById("demo").innerHTML = "I can display " + carName;
+
+function myFunction() {
+  carName = "Volvo";
+}
+
+myFunction();
+
+*/
+
+
