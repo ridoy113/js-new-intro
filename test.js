@@ -301,4 +301,36 @@ myFunction();
 
 */
 
+/*
+x = 5;
+console.log(x + 10);
+var x;
+
+
+x = 5;
+console.log(x);
+let x;
+
+
+function A() {
+  x = 5;
+  console.log(x);
+  let x;
+}
+A();
+
+
+var x;
+x = 5;
+var y;
+y = 7;
+console.log(x, y);
+
+console.log(str);
+var str = "hello";
+
+
+
+*/
+
 
