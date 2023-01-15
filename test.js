@@ -377,4 +377,14 @@ const person2 = {
 console.log(person1.fullName.call(person2));
 */
 
+/*
+let arr = [];
+arr[40] = "Hello";
+console.log(arr[4]);
+
+const hello = () => {
+  return this;
+};
+console.log(hello());
+*/
 
