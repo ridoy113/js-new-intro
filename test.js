@@ -388,3 +388,65 @@ const hello = () => {
 console.log(hello());
 */
 
+/*
+class Car {
+  constructor(name, year) {
+    this.name = name;
+    this.year = year;
+  }
+}
+
+const car1 = new Car("Toyota", 2017);
+console.log(car1);
+
+
+
+class Car {
+  constructor(name, year) {
+    this.name = name;
+    this.year = year;
+  }
+}
+
+const car1 = new Car("Toyota", 2017);
+const car2 = new Car("papiya", 2019);
+const car3 = new Car("BMW", 2000);
+console.log(car1, car2, car3);
+
+
+
+
+class Parson {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+
+  play() {
+    console.log(`${this.name} is working & he is ${this.age} years old.`);
+  }
+}
+const person1 = new Parson("Jon", 24);
+const person2 = new Parson("DOn", 27);
+
+person1.play();
+person2.play();
+*/
+
+class Parson {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+
+  play(status) {
+    console.log(
+      `${this.name} is working & he is ${this.age} years old.But he plying very ${status}`
+    );
+  }
+}
+const person1 = new Parson("Jon", 24);
+const person2 = new Parson("DOn", 27);
+
+person1.play("good");
+person2.play("bed");
