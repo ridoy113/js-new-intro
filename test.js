@@ -431,7 +431,9 @@ const person2 = new Parson("DOn", 27);
 
 person1.play();
 person2.play();
-*/
+
+
+
 
 class Parson {
   constructor(name, age) {
@@ -450,3 +452,4 @@ const person2 = new Parson("DOn", 27);
 
 person1.play("good");
 person2.play("bed");
+*/
