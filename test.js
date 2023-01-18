@@ -409,7 +409,7 @@ class Car {
 }
 
 const car1 = new Car("Toyota", 2017);
-const car2 = new Car("papiya", 2019);
+const car2 = new Car("Akt", 2019);
 const car3 = new Car("BMW", 2000);
 console.log(car1, car2, car3);
 
@@ -453,3 +453,21 @@ const person2 = new Parson("DOn", 27);
 person1.play("good");
 person2.play("bed");
 */
+
+/*
+let text =
+  '{ "employees" : [' +
+  '{ "firstName":"John" , "lastName":"Doe" },' +
+  '{ "firstName":"Anna" , "lastName":"Smith" },' +
+  '{ "firstName":"Peter" , "lastName":"Jones" } ]}';
+
+const obj = JSON.parse(text);
+console.log(text);
+console.log(obj.employees[2].lastName);
+*/
+
+let person = {
+  firstName: "Al Mamun",
+  lastName: "Ridoy",
+};
+console.log(JSON.stringify(person));
