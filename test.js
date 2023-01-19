@@ -435,23 +435,7 @@ person2.play();
 
 
 
-class Parson {
-  constructor(name, age) {
-    this.name = name;
-    this.age = age;
-  }
 
-  play(status) {
-    console.log(
-      `${this.name} is working & he is ${this.age} years old.But he plying very ${status}`
-    );
-  }
-}
-const person1 = new Parson("Jon", 24);
-const person2 = new Parson("DOn", 27);
-
-person1.play("good");
-person2.play("bed");
 */
 
 /*
@@ -464,10 +448,30 @@ let text =
 const obj = JSON.parse(text);
 console.log(text);
 console.log(obj.employees[2].lastName);
-*/
 
 let person = {
   firstName: "Al Mamun",
   lastName: "Ridoy",
 };
 console.log(JSON.stringify(person));
+*/
+
+class Parson {
+  constructor(name, age) {
+    this.name = name;
+    debugger;
+    this.age = age;
+  }
+
+  play(status) {
+    debugger;
+    console.log(
+      `${this.name} is working & he is ${this.age} years old.But he plying very ${status}`
+    );
+  }
+}
+const person1 = new Parson("Jon");
+const person2 = new Parson("DOn", 27);
+
+person1.play("good");
+person2.play("bed");
