@@ -478,13 +478,39 @@ person1.play("good");
 person2.play("bed");
 */
 
-
 /*
-
-*/ 
 const arr = [1, 2, 3, 4, 5];
 
 const length = arr.length;
 for (let i = 0; i < length; i++) {
   console.log(i);
 }
+*/
+
+
+
+
+
+
+
+
+/*
+const sentence = "I am a programmer. My name is Ridoy. I love coding.";
+
+const matches = sentence.match(/i/gi);
+const ocurances = matches ? matches.length : 0;
+console.log(ocurances);
+
+let position = sentence.search(/ridoys/i);
+
+position = position >= 0 ? position : "not found";
+
+console.log(position);
+*/ 
+
+
+
+
+
+
+
