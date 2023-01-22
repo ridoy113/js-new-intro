@@ -487,13 +487,6 @@ for (let i = 0; i < length; i++) {
 }
 */
 
-
-
-
-
-
-
-
 /*
 const sentence = "I am a programmer. My name is Ridoy. I love coding.";
 
@@ -506,10 +499,31 @@ let position = sentence.search(/ridoys/i);
 position = position >= 0 ? position : "not found";
 
 console.log(position);
+*/
+
+
+
+
+
+/*
+function linearSearch(arr, val) {
+  const length = arr.length;
+  for (let i = 0; i < length; i++) {
+    if (arr[i] === val) {
+      return i;
+    }
+  }
+
+  return "not found";
+}
+console.log(linearSearch(["a", "b", "c", "d", "c"], "c"));
+*/
+
+
+
+/*
+
 */ 
-
-
-
 
 
 
