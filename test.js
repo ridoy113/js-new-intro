@@ -456,6 +456,7 @@ let person = {
 console.log(JSON.stringify(person));
 */
 
+/*
 class Parson {
   constructor(name, age) {
     this.name = name;
@@ -475,3 +476,15 @@ const person2 = new Parson("DOn", 27);
 
 person1.play("good");
 person2.play("bed");
+*/
+
+
+/*
+
+*/ 
+const arr = [1, 2, 3, 4, 5];
+
+const length = arr.length;
+for (let i = 0; i < length; i++) {
+  console.log(i);
+}
