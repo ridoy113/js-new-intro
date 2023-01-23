@@ -501,10 +501,6 @@ position = position >= 0 ? position : "not found";
 console.log(position);
 */
 
-
-
-
-
 /*
 function linearSearch(arr, val) {
   const length = arr.length;
@@ -521,10 +517,19 @@ console.log(linearSearch(["a", "b", "c", "d", "c"], "c"));
 
 
 
+
 /*
 
-*/ 
+function longestString(names) {
+  let longestWord = "";
 
-
-
+  for (name of names) {
+    if (name.length > longestWord.length) {
+      longestWord = name;
+    }
+  }
+  return [longestWord, names.indexOf(longestWord)];
+}
+console.log(longestString(["Ridoy", "Kamal", "Dawloyer", "Rony"]));
+*/
 
