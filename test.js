@@ -528,12 +528,7 @@ function longestString(names) {
   return [longestWord, names.indexOf(longestWord)];
 }
 console.log(longestString(["Ridoy", "Kamal", "Dawloyer", "Rony"]));
-*/ 
-
-
-
-
-
+*/
 
 /*
 function fizzBuzz(number) {
@@ -551,5 +546,38 @@ function fizzBuzz(number) {
 }
 fizzBuzz(100);
 */
+
+/*
+const mixedArr = [
+  "lws",
+  undefined,
+  "ridoy",
+  false,
+  "",
+  "apple",
+  true,
+  "Thanks all",
+  NaN,
+];
+// const trueArray = mixedArr.filter(function (el) {
+//   if (el) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// });
+
+const trueArray = mixedArr.filter(Boolean);
+
+console.log(trueArray);
+*/
+
+
+/*
+
+*/ 
+
+
+
 
 
