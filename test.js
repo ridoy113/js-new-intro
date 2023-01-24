@@ -572,12 +572,26 @@ const trueArray = mixedArr.filter(Boolean);
 console.log(trueArray);
 */
 
-
 /*
 
-*/ 
+*/
 
+const obj = {
+  a: "lws",
+  b: undefined,
+  c: "ridoy",
+  d: false,
+  e: "",
+  f: "apple",
+};
 
+const truethyObject = function (obj) {
+  for (let i in obj) {
+    if (!obj[i]) {
+      delete obj[i];
+    }
+  }
+  return obj;
+};
 
-
-
+console.log(truethyObject(obj));
